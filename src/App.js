@@ -75,9 +75,14 @@ function App() {
 
 
       </form>
+
       <div className="container">
         <FlashcardList flashcards={flashcards}/>
       </div>
+
+      {/* <div className="footer">
+        <p>Made with  by ❤️ <a href="https://harshmathurx.github.io/website/">Harsh Mathur</a></p>
+      </div> */}
     </>
   );
 }
